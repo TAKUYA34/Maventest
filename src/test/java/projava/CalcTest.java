@@ -1,12 +1,15 @@
 package projava;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@SuppressWarnings("ALL")
 class CalcTest {
     @Test
-      void add() {
+    @DisplayName("add()")
+      void 正の数同士の計算() {
         assertEquals(6, new Calc().add(2, 4), "2 + 4 = 8");
         // assertEquals(期待値, 実際の値()[テストを表すメッセージ])
 
