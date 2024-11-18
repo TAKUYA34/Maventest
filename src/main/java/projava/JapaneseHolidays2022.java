@@ -2,7 +2,6 @@ package projava;
 
 import one.cafebabe.bc4j.BusinessCalendar;
 import one.cafebabe.bc4j.UnitedStates;
-
 import static one.cafebabe.bc4j.BusinessCalendar.JAPAN;
 import static one.cafebabe.bc4j.BusinessCalendar.UNITED_STATES;
 
